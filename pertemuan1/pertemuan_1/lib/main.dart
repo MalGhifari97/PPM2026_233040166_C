@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('\u{1F44B}', style: TextStyle(fontSize: 64)), // Emoji Tangan
+              const Text('\u{1F44B}', style: TextStyle(fontSize: 64)), 
               const SizedBox(height: 16),
               const Text(
-                'Halo, Muhammad Akmal Al-Ghifari!',
+                'Halo, saya Muhammad Akmal Al-Ghifari!',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 8),
@@ -52,10 +52,9 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 24), // Memberi jarak 24 pixel
+              const SizedBox(height: 24), 
               ElevatedButton(
                 onPressed: () {
-                  // Logika akan dipelajari di praktikum berikutnya
                 },
                 child: const Text('Tap Saya'),
               ),
