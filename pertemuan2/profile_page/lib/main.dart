@@ -94,7 +94,6 @@ class ProfilePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            // HEADER PROFIL
             Center(
               child: Column(
                 children: [
@@ -118,7 +117,6 @@ class ProfilePage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
 
-            // BARIS STATISTIK
             const Row(
               children: [
                 Expanded(child: StatBox(label: 'Post', value: '97')),
@@ -128,7 +126,6 @@ class ProfilePage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
 
-            // SECTION CARDS
             const SectionCard(
               icon: Icons.info_outline,
               title: 'Tentang Saya',
